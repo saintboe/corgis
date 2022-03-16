@@ -1,5 +1,6 @@
 /* eslint-disable comma-dangle, prefer-destructuring */
-const CONTRACT_NAME = process.env.CONTRACT_NAME;
+//const CONTRACT_NAME = process.env.CONTRACT_NAME;
+const CONTRACT_NAME = "corgis.nftsitaan.testnet";
 
 function getConfig(env) {
   switch (env) {

@@ -8,5 +8,6 @@ import toTitleCase from '~helpers/toTitleCase';
  * @returns {string}
  */
 export default function genRandomName() {
-  return toTitleCase(generate({ words: 2 }).spaced);
+  //return toTitleCase(generate({ words: 2 }).spaced);
+  return 'POP Card';
 }

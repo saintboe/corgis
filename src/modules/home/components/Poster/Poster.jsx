@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './Poster.scss';
 
-import corgiFull from '~assets/images/corgi-full.png';
+import corgiFull from '~assets/images/pop-full.png';
 
 import { Button, MintingLink } from '~modules/common';
 
@@ -17,9 +17,9 @@ const PosterPropTypes = {
 const Poster = ({ requestSignIn, user }) => (
   <div className='poster'>
     <div className='poster__description'>
-      <p className='poster__text'>Create your own one&#8209;of&#8209;a&#8209;kind Corgi today</p>
+      <p className='poster__text'>Need to know me? own one&#8209;of&#8209;a&#8209;POP Card</p>
 
-      <p className='poster__text poster__text--small'>Mint, collect, gift and trade Corgis on Blockchain</p>
+      <p className='poster__text poster__text--small'>Mint, collect POP Card on NEAR NFT</p>
 
       <div className='poster__action'>
         {user ? <MintingLink big /> : <Button description='Get Started ' action={requestSignIn} />}

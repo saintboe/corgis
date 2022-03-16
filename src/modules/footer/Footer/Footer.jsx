@@ -11,12 +11,12 @@ const Footer = () => (
     </div>
 
     <p className='footer__description'>
-      Crypto Corgis was created to demonstrate the NFT capabilities of NEAR Protocol.
+      POP Card fork from Crypto Corgis repo the NFT capabilities of NEAR Protocol.
     </p>
 
-    <div className='footer__community'>
+    {/* <div className='footer__community'>
       <NearCommunity />
-    </div>
+    </div> */}
   </footer>
 );
 

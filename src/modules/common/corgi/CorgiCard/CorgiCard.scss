@@ -45,6 +45,11 @@
     border-bottom: $border-basic rgba(#000000, 0.125);
   }
 
+  &__corgi {
+    width: 100%;
+    transform: translateY(-3%);
+  }
+
   &--big {
     height: 100%;
 

@@ -6,7 +6,7 @@ import './MintingLink.scss';
 
 import classNames from 'classnames';
 
-import IconNav from '~assets/images/icon-nav.svg';
+import IconNav from '~assets/images/mintme.png';
 
 const MintingLinkPropTypes = { big: PropTypes.bool };
 

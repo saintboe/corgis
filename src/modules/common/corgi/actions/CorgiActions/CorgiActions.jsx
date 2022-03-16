@@ -48,7 +48,7 @@ const CorgiActions = ({ corgi, isDropdown = false }) => {
 
           {!showOnlyShare && <GiftPopup />}
 
-          {!showOnlyShare && <TradePopup />}
+          {/* {!showOnlyShare && <TradePopup />} */}
 
           {!showOnlyShare && <span divider='true'></span>}
 
@@ -64,7 +64,7 @@ const CorgiActions = ({ corgi, isDropdown = false }) => {
             <>
               <GiftPopup asButton />
 
-              <TradePopup asButton />
+              {/* <TradePopup asButton /> */}
 
               <DeletePopup asButton />
             </>

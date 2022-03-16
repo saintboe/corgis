@@ -32,15 +32,15 @@ const Nav = () => {
 
           <div className='nav__item nav__item--corgis'>
             <Link to={`/user/${user.accountId}`}>
-              <Button description='My Corgis' badge={corgis ? corgis.length : 0} stretchable />
+              <Button description='My POP Card' badge={corgis ? corgis.length : 0} stretchable />
             </Link>
           </div>
 
-          <div className='nav__item nav__item--marketplace'>
+          {/* <div className='nav__item nav__item--marketplace'>
             <Link to='/marketplace'>
               <Button description='Marketplace' badge={corgisForSale ? corgisForSale.length : 0} stretchable />
             </Link>
-          </div>
+          </div> */}
 
           <div className='nav__item nav__item--dropdown'>
             <Dropdown title={`@${user.accountId}`} stretchable>
@@ -60,11 +60,11 @@ const Nav = () => {
         </>
       ) : (
         <>
-          <div className='nav__item'>
+          {/* <div className='nav__item'>
             <Link to='/marketplace'>
               <Button description='Marketplace' badge={corgisForSale ? corgisForSale.length : 0} />
             </Link>
-          </div>
+          </div> */}
 
           <div className='nav__item'>
             <Button description='Login with NEAR' action={signInAction} />

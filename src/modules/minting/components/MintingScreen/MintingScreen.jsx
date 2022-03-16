@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 
 import './MintingScreen.scss';
+import popQt from '~assets/images/pop-qt.png';
 
 import tinycolor from 'tinycolor2';
 import { CharacterContext } from '~contexts';
@@ -14,7 +15,8 @@ const MintingScreen = () => {
 
   return (
     <div className='minting-screen' style={{ backgroundColor, color: textColor }}>
-      <Egg color={color} showShadow={true} />
+      {/* <Egg color={color} showShadow={true} /> */}
+      <img className='minting-screen__pop' src={popQt} alt='' />
     </div>
   );
 };

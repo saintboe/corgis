@@ -2,7 +2,7 @@ import React from 'react';
 
 import './CorgiSpinner.scss';
 
-import corgiCircle from '~assets/images/corgi-circle.png';
+import corgiCircle from '~assets/images/poproll.png';
 
 const CorgiSpinner = () => (
   <div className='spinner-wrapper'>

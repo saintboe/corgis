@@ -5,6 +5,8 @@ import './CorgiCard.scss';
 
 import classNames from 'classnames';
 
+import corgiCard from '~assets/images/popcard.png';
+
 import {
   Activity,
   AuctionTimer,
@@ -38,14 +40,15 @@ const CorgiCard = ({ corgi, hideActions = false, big = false, showAuctionInfo = 
   return (
     <div className={classNames('corgi-card', { 'corgi-card--big': big })}>
       <div className='corgi-card__header'>
-        <RarityString rate={rate} />
+        <RarityString rate=' ' />
 
         {!hideActions && <CorgiActions corgi={corgi} isDropdown />}
       </div>
 
       <CorgiLink id={id}>
         <div className='corgi-card__image' style={{ backgroundColor: background_color }}>
-          <CorgiSVG color={color} sausage={SAUSAGE[rate] || SAUSAGE.COMMON} />
+          {/* <CorgiSVG color={color} sausage={SAUSAGE[rate] || SAUSAGE.COMMON} /> */}
+          <img className='corgi-card__corgi' src={corgiCard} alt='' />
         </div>
       </CorgiLink>
 

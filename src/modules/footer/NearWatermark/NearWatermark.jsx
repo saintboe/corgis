@@ -2,7 +2,7 @@ import React from 'react';
 
 import './NearWatermark.scss';
 
-import nearLogo from '~assets/images/near-logo.svg';
+import nearLogo from '~assets/images/prodigy.png';
 
 import { ExternalLink } from '~modules/common';
 
@@ -12,7 +12,7 @@ const NearWatermark = () => (
       <img className='watermark__logo' src={nearLogo} alt='NEAR' />
     </a>
 
-    <div className='watermark__description'>
+    {/* <div className='watermark__description'>
       <div className='watermark__copyright'>© 2021 NEAR Inc. All Rights Reserved.</div>
 
       <div className='watermark__privacy'>
@@ -36,7 +36,7 @@ const NearWatermark = () => (
           showUnderline
         />
       </div>
-    </div>
+    </div> */}
   </div>
 );
 

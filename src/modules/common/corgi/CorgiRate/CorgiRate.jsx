@@ -22,7 +22,7 @@ const CorgiRatePropTypes = {
 
 const CorgiRate = ({ rate, responsiveRow = false, hideTitle = false }) => (
   <div className={classNames('corgi-rate', { 'corgi-rate--row': responsiveRow })}>
-    {!hideTitle && <h3 className='corgi-rate__title'>This Corgi is:</h3>}
+    {/* {!hideTitle && <h3 className='corgi-rate__title'>This Corgi is:</h3>}
 
     <ul className='corgi-rate__list'>
       <li className='corgi-rate__item'>
@@ -44,7 +44,7 @@ const CorgiRate = ({ rate, responsiveRow = false, hideTitle = false }) => (
         <CorgiVeryRare color={rate === RATES.VERY_RARE ? orange : gray} />
         <RarityString rate={RATES.VERY_RARE} />
       </li>
-    </ul>
+    </ul> */}
   </div>
 );
 

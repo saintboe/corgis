@@ -8,4 +8,10 @@
   padding: $minting-screen-padding;
 
   border-radius: $border-radius-big;
+
+  &__pop {
+    width: 40%;
+
+    transform: translateY(-3%);
+  }
 }
